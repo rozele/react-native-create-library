@@ -1,4 +1,4 @@
-/* eslint max-len: 0 */
+﻿/* eslint max-len: 0 */
 
 module.exports = platform => [{
   name: ({ name }) => `${platform}/${name}.sln`,
@@ -305,7 +305,7 @@ packages/
     <EmbeddedResource Include="Properties\${name}.rd.xml" />
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="..\..\node_modules\react-native-windows\ReactWindows\ReactNative\ReactNative.csproj">
+    <ProjectReference Include="$(ReactWindowsRoot)\react-native-windows\ReactWindows\ReactNative\ReactNative.csproj">
       <Project>{c7673ad5-e3aa-468c-a5fd-fa38154e205c}</Project>
       <Name>ReactNative</Name>
     </ProjectReference>
