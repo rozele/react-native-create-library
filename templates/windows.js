@@ -232,7 +232,7 @@ obj/
     <ReactWindowsRoot>..\\..\\node_modules</ReactWindowsRoot>
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)' != 'Development'">
-    <ReactWindowsRoot>..\\..</ReactWindowsRoot>
+    <ReactWindowsRoot>..\\..\\..</ReactWindowsRoot>
   </PropertyGroup>
   <PropertyGroup Condition="'$(Configuration)|$(Platform)' == 'Debug|x86'">
     <PlatformTarget>x86</PlatformTarget>
